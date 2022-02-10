@@ -1,8 +1,11 @@
 #result{
-  width: 210px;
+  width: 200px;
   margin-bottom: 5px;
   height: 25px;
-  background:aqua;
+  background:rgb(224, 224, 224);
+  text-align: right;
+  border: 3px solid tomato;
+  padding: 0 5px;
 }
 
 button  {

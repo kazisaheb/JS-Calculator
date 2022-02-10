@@ -1,9 +1,16 @@
-let result = document.getElementById('result');
-console.log(result);
+let resultField = document.getElementById('result');
+
 let buttons = document.getElementsByTagName('button');
 
 for (btn of buttons) {
   btn.addEventListener('click', function (event) {
-    result.value = event.target.innerText * event.target.innerText;
+    let btnValue = event.target.innerText;
+    resultField.append(btnValue);
   })
 }
+
+let ac = document.getElementById('ac');
+ac.addEventListener('click', function () {
+  resultField.innerText = '';
+})
+
