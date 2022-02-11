@@ -20,7 +20,7 @@ body{
   text-align: right;
   border: 3px solid tomato;
   padding: 0 5px;
-  margin-bottom: -.5px;
+  margin-bottom: 0px;
 }
 button  {
 background: aqua;
@@ -31,5 +31,5 @@ margin: 2px 0;
 #ac,#equel{
   background:tomato;
   color: white;
-  width: 103px;
+  /* width: 103px; */
 }
