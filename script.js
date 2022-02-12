@@ -1,7 +1,7 @@
 let resultField = document.getElementById('result');
 let inputField = document.getElementById('input');
 //Numbers calling
-let numbers = document.getElementsByClassName('number');
+let numbers = document.getElementsByClassName('num');
 for (btn of numbers) {
   btn.addEventListener('click', function (event) {
     let btnValue = event.target.innerText;
