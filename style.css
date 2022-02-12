@@ -1,35 +1,53 @@
 body{
   font-family: fantasy;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
 #result{
-  width: 197px;
+  width: 298px;
   margin-bottom: 5px;
-  height: 15px;
+  height: 30px;
   background:rgb(238, 238, 238);
   text-align: right;
   border: 1px solid rgb(216, 216, 216);
   padding: 0 5px;
-  margin-bottom: -15px;
-  font-size: .7em;
+  margin-bottom: -35px;
+  font-size: 1.5em;
 }
 #input{
-  width: 193px;
+  width: 293px;
   margin-bottom: 5px;
-  height: 25px;
+  height: 50px;
   background:rgb(224, 224, 224);
   text-align: right;
   border: 3px solid tomato;
   padding: 0 5px;
-  margin-bottom: 0px;
+  margin-bottom: 2px;
+  font-size: 2.5em;
 }
-button  {
-background: aqua;
-width: 50px;
-height: 30px;
-margin: 2px 0;
+button{
+  width: 75px;
+  height: 75px;
+  margin: 2px 0;
+  font-size: 1.7em;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+button:hover{
+  background: rgb(214, 214, 214);
+  transition: .3s;
 }
 #ac,#equel{
   background:tomato;
   color: white;
-  /* width: 103px; */
+  width: 153px;
+}
+#ac:hover,#equel:hover{
+  background:red;
+  color: white;
+  width: 153px;
 }
