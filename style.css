@@ -19,7 +19,7 @@ body{
   font-size: 1.5em;
 }
 #input{
-  width: 293px;
+  width: 294px;
   margin-bottom: 5px;
   height: 50px;
   background:rgb(224, 224, 224);
@@ -47,7 +47,7 @@ button:hover{
   width: 153px;
 }
 #ac:hover,#equel:hover{
-  background:red;
+  background:rgb(233, 71, 42);
   color: white;
   width: 153px;
 }
