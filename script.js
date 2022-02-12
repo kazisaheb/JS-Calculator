@@ -19,18 +19,18 @@ let ce = document.getElementById('ce');
 ce.addEventListener('click', function () {
   inputField.removeChild(inputField.lastChild);
 })
+// Root button function
+let root = document.getElementById('root');
+root.addEventListener('click', function () {
+  resultField.innerText = '= ' + Math.sqrt(eval(inputField.innerText));
+})
+// Squer button function
+let sqr = document.getElementById('sqr');
+sqr.addEventListener('click', function () {
+  resultField.innerText = '= ' + eval(inputField.innerText) * eval(inputField.innerText);
+})
 // = button function
 let equel = document.getElementById('equel');
 equel.addEventListener('click', function () {
   resultField.innerText = '= ' + eval(inputField.innerText);
-})
-// Root button function
-let root = document.getElementById('root');
-root.addEventListener('click', function () {
-  resultField.innerText = '= ' + Math.sqrt(inputField.innerText);
-})
-// sqr button function
-let sqr = document.getElementById('sqr');
-sqr.addEventListener('click', function () {
-  resultField.innerText = '= ' + inputField.innerText * inputField.innerText;
 })
