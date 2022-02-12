@@ -1,5 +1,8 @@
 body{
   font-family: fantasy;
+  background-image: linear-gradient(black,white);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .content{
   display: flex;
@@ -44,10 +47,8 @@ button:hover{
 #ac,#equel{
   background:tomato;
   color: white;
-  width: 153px;
+  /* width: 153px; */
 }
 #ac:hover,#equel:hover{
   background:rgb(233, 71, 42);
-  color: white;
-  width: 153px;
 }

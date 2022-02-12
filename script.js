@@ -24,3 +24,13 @@ let equel = document.getElementById('equel');
 equel.addEventListener('click', function () {
   resultField.innerText = '= ' + eval(inputField.innerText);
 })
+// Root button function
+let root = document.getElementById('root');
+root.addEventListener('click', function () {
+  resultField.innerText = '= ' + Math.sqrt(inputField.innerText);
+})
+// sqr button function
+let sqr = document.getElementById('sqr');
+sqr.addEventListener('click', function () {
+  resultField.innerText = '= ' + inputField.innerText * inputField.innerText;
+})
